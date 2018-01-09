@@ -1,7 +1,7 @@
 //db session
 var mongoose = require('mongoose')
 
-mongoose.connect('mongodb://ramirez:alexandre033@ds139436.mlab.com:39436/campsground');
+mongoose.connect('link to db');
 var campsSchema = mongoose.Schema({
     name: String,
     image: String,
