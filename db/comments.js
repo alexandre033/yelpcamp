@@ -1,6 +1,6 @@
 var mongoose = require('mongoose')
 
-mongoose.connect('mongodb://ramirez:alexandre033@ds139436.mlab.com:39436/campsground');
+mongoose.connect('link to db');
 var commentsSchema = mongoose.Schema({
     title: String,
     author: {
